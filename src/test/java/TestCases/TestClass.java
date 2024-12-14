@@ -20,6 +20,7 @@ public class TestClass extends BaseTest {
 	public void login() {
 		ParabankLoginPage homePageActions = new ParabankLoginPage();
 		homePageActions.login(configReader.readPropertyFile("email"), configReader.readPropertyFile("password"));
+		
 	}
 
 }
